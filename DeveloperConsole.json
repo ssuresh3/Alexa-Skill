@@ -1,0 +1,136 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "change for change",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MoneyRaisedSinceDate",
+                    "slots": [
+                        {
+                            "name": "SinceDate",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "MoneyRaisedSinceDate money count {SinceDate}",
+                        "MoneyRaisedSinceDate amount of money {SinceDate}",
+                        "MoneyRaisedSinceDate How much money have I raised since date {SinceDate}"
+                    ]
+                },
+                {
+                    "name": "Welcome",
+                    "slots": [],
+                    "samples": [
+                        "Welcome Change for Change",
+                        "Welcome Can I do a question",
+                        "Welcome Run Change for Change",
+                        "Welcome open Change for Change",
+                        "Welcome Let me Change for Change"
+                    ]
+                },
+                {
+                    "name": "Goodbye",
+                    "slots": [],
+                    "samples": [
+                        "Goodbye Quit",
+                        "Goodbye Stop Change for Change",
+                        "Goodbye Stop"
+                    ]
+                },
+                {
+                    "name": "GiveSurvey",
+                    "slots": [],
+                    "samples": [
+                        "GiveSurvey Can I do a survey",
+                        "GiveSurvey Hit me with a survey",
+                        "GiveSurvey Give me a survey"
+                    ]
+                },
+                {
+                    "name": "DonatingTo",
+                    "slots": [],
+                    "samples": [
+                        "DonatingTo which organization is it",
+                        "DonatingTo Which organization am I donating to",
+                        "DonatingTo Who am I donating to"
+                    ]
+                },
+                {
+                    "name": "SurveysCompleted",
+                    "slots": [],
+                    "samples": [
+                        "SurveysCompleted how many surveys finished",
+                        "SurveysCompleted how many surveys have I done",
+                        "SurveysCompleted how many surveys have I completed"
+                    ]
+                },
+                {
+                    "name": "MoneyRaised",
+                    "slots": [],
+                    "samples": [
+                        "MoneyRaised How much money do I have",
+                        "MoneyRaised money raised for charity",
+                        "MoneyRaised How much money have I raised"
+                    ]
+                },
+                {
+                    "name": "SurveysCompletedSinceDate",
+                    "slots": [
+                        {
+                            "name": "SinceDate",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "SurveysCompletedSinceDate number of surveys {SinceDate}",
+                        "SurveysCompletedSinceDate how many surveys have I completed {SinceDate}",
+                        "SurveysCompletedSinceDate survey count {SinceDate}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "response",
+                    "slots": [
+                        {
+                            "name": "ans",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "I like {ans}",
+                        "I think {ans}",
+                        "I prefer {ans}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
